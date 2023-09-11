@@ -5,12 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bonsai</title>
     <link rel="stylesheet" href="../dist/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <div class="pt-8 pb-8">
-      <div class="text-center text-4xl uppercase text-slate-800">
-        <h1 class="font-bold">Bonsai</h1>
+    <!-- navbar -->
+    <header class="pt-4">
+      <div class="container">
+        <div class="flex justify-between items-center px-2 pt-2">
+          <div class="flex flex-wrap items-center justify-center gap-2">
+            <img width="50" src="../public/image/bonsai.png" alt="" />
+            <h4 class="font-semibold text-secondary text-lg">BONSAI</h4>
+          </div>
+          <nav class="max-w-full">
+            <ul class="flex font-semibold text-secondary">
+              <li>
+                <a
+                  class="text-secondary px-10 py-3 rounded-full hover:bg-bg_primary focus:bg-slate-500"
+                  href="#home"
+                  >Product</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-secondary px-8 py-3 rounded-full hover:bg-bg_primary focus:bg-bg_primary"
+                  href="#"
+                  >Templates</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-secondary px-8 py-3 rounded-full hover:bg-bg_primary focus:bg-bg_primary"
+                  href="#"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-secondary px-8 py-3 rounded-full hover:bg-bg_primary focus:bg-bg_primary"
+                  href="#"
+                  >Reviews</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="flex flex-wrap items-center justify-center gap-3">
+            <a href="#">
+              <button
+                class="px-6 py-3 font-bold rounded-lg text-primary border-primary bg-slate-50 border-2"
+              >
+                LOG IN
+              </button>
+            </a>
+            <a href="#">
+              <button
+                class="px-6 py-3 font-bold rounded-lg text-white border-primary bg-primary border-2"
+              >
+                START FREE
+              </button>
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
+    </header>
+    <!-- navbar -->
+    <!-- content-1 -->
+    <!-- content-1 -->
   </body>
 </html>

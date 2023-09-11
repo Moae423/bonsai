@@ -2,7 +2,20 @@
 module.exports = {
   content: ['./public/**/*.{html,js}'],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      padding: '16px',  
+    },
+    extend: {
+      colors: {
+        primary : '#00b289',
+        secondary : '#4c4d5f',
+        third : '#f8db62',
+      },
+      screen: {
+        '2xl': '1320px'
+      },
+    },
   },
   plugins: [],
 }
